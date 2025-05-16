@@ -69,12 +69,15 @@ export const About = () => {
               <h3 className="text-xl font-bold mb-4"> 🏫 Education </h3>
               <ul className="list-disc list-inside text-gray-300 space-y-2">
                 <li>
-                  <strong> B.S. in Computer Science </strong> - XYZ University
-                  (2016-2020)
+                  West Point Avondale, AZ Expected Grad Date: May 2025. Relevant
+                  Coursework: Coding Applications 1-4, AP Pre-Calculus, Advanced
+                  Geometry, Algebra 1, AP Biology, AP Calculus, AP Government
+                  and Macroeconomics.
                 </li>
                 <li>
-                  Relevant Coursework: Data Structures, Web Development, Cloud
-                  Computing...
+                  West-MEC Coding Program Glendale,AZ Grad Date: May 2025. This
+                  two-year program teached students how to design and develop
+                  software, build apps and write and test computer code.
                 </li>
               </ul>
             </div>
@@ -82,25 +85,16 @@ export const About = () => {
               <h3 className="text-xl font-bold mb-4"> 💼 Work Experience </h3>
               <div className="space-y-4 text-gray-300">
                 <div>
-                  <h4 className="font-semibold">
-                    {" "}
-                    Software Engineer at ABC Corp (2020 - Present){" "}
-                  </h4>
+                  <h4 className="font-semibold"></h4>
                   <p>
-                    Developed and maintained microservices for cloud-based
-                    applications.
+                    WBLA: 2024, I participated in work based learning to get
+                    ready for the workforce at West-Mec where I learned how to work with a team and the things people do daily in the workforce to get a team cooperating. 
                   </p>
                 </div>
 
                 <div>
-                  <h4 className="font-semibold">
-                    {" "}
-                    Intern at DEF Startups (2019){" "}
-                  </h4>
-                  <p>
-                    Assisted in building front-end components and integration
-                    REST APIs
-                  </p>
+                  <h4 className="font-semibold"> </h4>
+                  <p></p>
                 </div>
               </div>
             </div>
