@@ -3,13 +3,13 @@ import { RevealOnScroll } from "../RevealOnScroll";
 export const About = () => {
   const frontendSkills = [
     "React",
-    "Vue",
+    "CSS",
     "TypeScript",
     "TailwindCSS",
-    "Svelte",
+    "SQLlite",
   ];
 
-  const backendSkills = ["Node.js", "Python", "AWS", "MongoDB", "GraphQL"];
+  const backendSkills = ["Node.js", "Python", "MongoDB", "MySQL", "JSON"];
 
   return (
     <section
@@ -88,7 +88,7 @@ export const About = () => {
                   <h4 className="font-semibold"></h4>
                   <p>
                     WBLA: 2024, I participated in work based learning to get
-                    ready for the workforce at West-Mec where I learned how to work with a team and the things people do daily in the workforce to get a team cooperating. 
+                    ready for the workforce at West-Mec where I learned how to work with a team and the things people do daily in the workforce to get a team cooperating.
                   </p>
                 </div>
 

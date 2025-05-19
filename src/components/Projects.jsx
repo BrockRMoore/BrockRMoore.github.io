@@ -16,7 +16,8 @@ export const Projects = () => {
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
               <h3 className="text-xl font-bold mb-2"> Task App</h3>
               <p className="text-gray-400 mb-4">
-                
+                A group project where we used the LAMP stack to create a website
+                where you could manage tasks or goals for the day.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
                 {["React", "Node.js", "AWS", "Docker"].map((tech, key) => (
@@ -33,7 +34,7 @@ export const Projects = () => {
 
               <div className="flex justify-between items-center">
                 <a
-                  href="#"
+                  href="https://github.com/bmoore639/laravel-task-app3"
                   className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                 >
                   View Project →
@@ -48,10 +49,12 @@ export const Projects = () => {
               transition-all
             "
             >
-              <h3 className="text-xl font-bold mb-2">AI Analytics Dashboard</h3>
+              <h3 className="text-xl font-bold mb-2">MECAZON</h3>
               <p className="text-gray-400 mb-4">
-                ML-powered data visualization platform with predictive analytics
-                and interactive reports.
+                A project that had multiple groups working together to work on
+                one website to get experience working in a company environment.
+                The website used the MERN stack and I was the leader of my team
+                managing the frontend functionality.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
                 {["Python", "TensorFlow", "D3.js", "Flask"].map((tech, key) => (
@@ -71,7 +74,7 @@ export const Projects = () => {
               </div>
               <div className="flex justify-between items-center">
                 <a
-                  href="#"
+                  href="https://github.com/orgs/WestMecCoding/teams/12pm-mecazon-client-production"
                   className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                 >
                   View Project →
@@ -87,10 +90,9 @@ export const Projects = () => {
               transition-all
             "
             >
-              <h3 className="text-xl font-bold mb-2">E-Commerce Web App</h3>
+              <h3 className="text-xl font-bold mb-2"></h3>
               <p className="text-gray-400 mb-4">
-                Full-stack e-commerce with modern UI, secure payment
-                integration, and customizable product inventory.
+
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
                 {["Next.js", "TypeScript", "Stripe", "PostgreSQL"].map(
@@ -128,10 +130,9 @@ export const Projects = () => {
               transition-all
             "
             >
-              <h3 className="text-xl font-bold mb-2">Real-Time Chat App</h3>
+              <h3 className="text-xl font-bold mb-2"></h3>
               <p className="text-gray-400 mb-4">
-                Scalable chat platform supporting real-time messaging, presence,
-                and group chat features.
+                
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
                 {["Socket.IO", "Express", "React", "Redis"].map((tech, key) => (
