@@ -1,15 +1,9 @@
 import { RevealOnScroll } from "../RevealOnScroll";
 
 export const About = () => {
-  const frontendSkills = [
-    "React",
-    "CSS",
-    "TypeScript",
-    "TailwindCSS",
-    "SQLlite",
+  const frontendSkills = ["React", "CSS", "TypeScript", "TailwindCSS", "SQLite",];
+  const backendSkills = ["Node.js", "Python", "MongoDB", "MySQL", "JSON", "JavaScript", "PHP", "Express"
   ];
-
-  const backendSkills = ["Node.js", "Python", "MongoDB", "MySQL", "JSON"];
 
   return (
     <section
@@ -18,26 +12,24 @@ export const About = () => {
     >
       <RevealOnScroll>
         <div className="max-w-3xl mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
-            {" "}
+          <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-lime-400 to-orange-200 bg-clip-text text-transparent text-center">
             About Me
           </h2>
 
-          <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
+          <div className="rounded-xl p-8 border border-white/10 hover:-translate-y-1 transition-all">
             <p className="text-gray-300 mb-6">
-              Educated in web development 900+ hours. Educated in python for a year. Expierenced with multiple frameworks and different ways to manage databases. 
+              Educated in web development (900+ hours). Studied Python for over a year. Experienced with multiple frameworks and various database management strategies.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              {/* Frontend */}
               <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
-                <h3 className="text-xl font-bold mb-4"> Frontend</h3>
+                <h3 className="text-xl font-bold mb-4">Frontend</h3>
                 <div className="flex flex-wrap gap-2">
                   {frontendSkills.map((tech, key) => (
                     <span
                       key={key}
-                      className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
-                                    hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition
-                    "
+                      className="bg-blue-500/10 text-lime-100 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] hover:text-lime-300 transition"
                     >
                       {tech}
                     </span>
@@ -45,15 +37,14 @@ export const About = () => {
                 </div>
               </div>
 
+              {/* Backend */}
               <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
-                <h3 className="text-xl font-bold mb-4"> Backend</h3>
+                <h3 className="text-xl font-bold mb-4">Backend</h3>
                 <div className="flex flex-wrap gap-2">
                   {backendSkills.map((tech, key) => (
                     <span
                       key={key}
-                      className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
-                                    hover:shadow-[0_2px_8px_rgba(59,130,2246,0.2)] transition
-                    "
+                      className="bg-blue-500/10 text-lime-100 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] hover:text-lime-300 transition"
                     >
                       {tech}
                     </span>
@@ -63,37 +54,30 @@ export const About = () => {
             </div>
           </div>
 
+          {/* Education & Work Experience */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
-            <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
-              <h3 className="text-xl font-bold mb-4"> 🏫 Education </h3>
+            {/* Education */}
+            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 transition-all">
+              <h3 className="text-xl font-bold mb-4">🏫 Education</h3>
               <ul className="list-disc list-inside text-gray-300 space-y-2">
                 <li>
-                  West Point Avondale, AZ Expected Grad Date: May 2025. Relevant
-                  Coursework: Coding Applications 1-4, AP Pre-Calculus, Advanced
-                  Geometry, Algebra 1, AP Biology, AP Calculus, AP Government
-                  and Macroeconomics.
+                  <strong>West Point, Avondale, AZ</strong> – Expected Grad Date: May 2025. Relevant Coursework: Coding Applications 1–4, AP Pre-Calculus, Advanced Geometry, Algebra 1, AP Biology, AP Calculus, AP Government and Macroeconomics.
                 </li>
                 <li>
-                  West-MEC Coding Program Glendale,AZ Grad Date: May 2025. This
-                  two-year program teached students how to design and develop
-                  software, build apps and write and test computer code.
+                  <strong>West-MEC Coding Program, Glendale, AZ</strong> – Grad Date: May 2025. This two-year program taught students how to design and develop software, build apps, and write and test computer code.
                 </li>
               </ul>
             </div>
-            <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
-              <h3 className="text-xl font-bold mb-4"> 💼 Work Experience </h3>
+
+            {/* Work Experience */}
+            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 transition-all">
+              <h3 className="text-xl font-bold mb-4">💼 Work Experience</h3>
               <div className="space-y-4 text-gray-300">
                 <div>
-                  <h4 className="font-semibold"></h4>
+                  <h4 className="font-semibold">WBLA – 2024</h4>
                   <p>
-                    WBLA: 2024, I participated in work based learning to get
-                    ready for the workforce at West-Mec where I learned how to work with a team and the things people do daily in the workforce to get a team cooperating.
+                    Participated in Work-Based Learning at West-MEC to prepare for the workforce. Learned how to collaborate effectively, work with a team, and understand the dynamics of daily professional environments.
                   </p>
-                </div>
-
-                <div>
-                  <h4 className="font-semibold"> </h4>
-                  <p></p>
                 </div>
               </div>
             </div>
